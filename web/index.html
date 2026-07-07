@@ -59,8 +59,33 @@
 
   section.day.today { margin-top: 34px; }
   .today-header { margin: 0 4px 12px; }
-  .today-header h1 { font-size: 26px; margin: 0; letter-spacing: -.02em; }
+  .today-header h1 { font-size: 26px; margin: 0; letter-spacing: -.02em; display: flex; align-items: center; gap: 10px; }
+  .today-header .pill {
+    background: var(--text); color: var(--bg); font-size: 12px; font-weight: 800;
+    letter-spacing: .1em; padding: 3px 11px; border-radius: 999px; flex: none;
+  }
   .today-header .sub { color: var(--dim); font-size: 13px; margin-top: 3px; }
+
+  /* Los juegos de hoy mandan: tarjetas más grandes, elevadas y con filo del color de su liga. */
+  section.day.today li.game {
+    padding: 15px 16px;
+    font-size: 16.5px;
+    border-left: 4px solid var(--faint);
+    border-radius: 6px 12px 12px 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+  }
+  @media (prefers-color-scheme: light) {
+    section.day.today li.game { box-shadow: 0 2px 10px rgba(20, 30, 45, .1); }
+  }
+  section.day.today li.game[data-league="mlb"] { border-left-color: var(--mlb); }
+  section.day.today li.game[data-league="wnba"] { border-left-color: var(--wnba); }
+  section.day.today li.game[data-league="nba"] { border-left-color: var(--nba); }
+  section.day.today li.game[data-league="nwsl"] { border-left-color: var(--nwsl); }
+  section.day.today li.game[data-league="ligamxfemenil"] { border-left-color: var(--ligamxfemenil); }
+  section.day.today li.game[data-league="pwhl"] { border-left-color: var(--pwhl); }
+  section.day.today .team img { width: 24px; height: 24px; }
+  section.day.today .when { font-size: 15px; color: var(--text); font-weight: 600; }
+  section.day.today .when .tv { font-size: 12px; font-weight: 400; }
 
   ul.games { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
   li.game {
@@ -72,7 +97,6 @@
     border-radius: 10px;
     padding: 10px 14px;
   }
-  section.day.today li.game { padding: 13px 14px; }
 
   .chip { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .04em; }
   .chip .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
@@ -192,8 +216,8 @@
 
   html += `<section class="day today" id="hoy">
     <div class="today-header">
-      <h1>${esc(dayName(today.date, 'long'))}</h1>
-      <div class="sub">Hoy · <span id="updated">actualizado ${esc(updatedStr)}</span></div>
+      <h1><span class="pill">HOY</span>${esc(dayName(today.date, 'long'))}</h1>
+      <div class="sub"><span id="updated">actualizado ${esc(updatedStr)}</span></div>
     </div>`;
   html += today.games.length
     ? `<ul class="games" id="today-games">${today.games.map(gameHtml).join('')}</ul>`
