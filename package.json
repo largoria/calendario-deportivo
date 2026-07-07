@@ -1,0 +1,18 @@
+{
+  "name": "calendario-deportivo",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "fetch": "node src/fetch-games.ts",
+    "print": "node src/print-terminal.ts",
+    "test": "node --test src/*.test.ts src/adapters/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

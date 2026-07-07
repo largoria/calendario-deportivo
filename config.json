@@ -1,0 +1,14 @@
+{
+  "historyDays": 7,
+  "upcomingDays": 14,
+  "locale": "es-MX",
+  "timezone": null,
+  "leagues": {
+    "mlb": { "enabled": true, "label": "MLB", "teams": ["Dodgers"] },
+    "wnba": { "enabled": true, "label": "WNBA", "teams": "all" },
+    "nba": { "enabled": false, "label": "NBA", "teams": "all" },
+    "nwsl": { "enabled": true, "label": "NWSL", "teams": "all" },
+    "ligamxfemenil": { "enabled": true, "label": "Liga MX Femenil", "teams": "all" },
+    "pwhl": { "enabled": true, "label": "PWHL", "teams": "all" }
+  }
+}

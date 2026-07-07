@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Juegos de hoy</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --surface: #161b23;
+    --line: #232a35;
+    --text: #e6e9ef;
+    --dim: #8b93a3;
+    --faint: #5b6371;
+    --live: #3fd68f;
+    --warn: #e8b23d;
+    --mlb: #6db1ff;
+    --wnba: #ff9b52;
+    --nba: #ff9b52;
+    --nwsl: #45c7d8;
+    --ligamxfemenil: #4fd08c;
+    --pwhl: #b9a0ff;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7;
+      --surface: #ffffff;
+      --line: #e3e6ea;
+      --text: #1b2129;
+      --dim: #5d6673;
+      --faint: #99a1ad;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 620px; margin: 0 auto; padding: 28px 16px 48px; }
+
+  .past-hint {
+    text-align: center; color: var(--faint); font-size: 12px;
+    letter-spacing: .06em; text-transform: uppercase; margin-bottom: 20px;
+  }
+  .upcoming-hint { margin-top: 34px; }
+  section.day.upcoming .day-header .weekday { color: var(--text); }
+
+  section.day { margin-bottom: 26px; }
+  section.day.past { opacity: .78; }
+  .day-header {
+    display: flex; align-items: baseline; gap: 10px;
+    margin: 0 4px 8px; color: var(--dim); font-size: 13px;
+  }
+  .day-header .weekday { font-weight: 600; color: var(--text); }
+  section.day.past .day-header .weekday { color: var(--dim); }
+
+  section.day.today { margin-top: 34px; }
+  .today-header { margin: 0 4px 12px; }
+  .today-header h1 { font-size: 26px; margin: 0; letter-spacing: -.02em; }
+  .today-header .sub { color: var(--dim); font-size: 13px; margin-top: 3px; }
+
+  ul.games { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+  li.game {
+    display: grid;
+    grid-template-columns: 92px 1fr auto;
+    align-items: center; gap: 10px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px 14px;
+  }
+  section.day.today li.game { padding: 13px 14px; }
+
+  .chip { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; letter-spacing: .04em; }
+  .chip .dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+  .chip.mlb { color: var(--mlb); } .chip.mlb .dot { background: var(--mlb); }
+  .chip.wnba { color: var(--wnba); } .chip.wnba .dot { background: var(--wnba); }
+  .chip.nba { color: var(--nba); } .chip.nba .dot { background: var(--nba); }
+  .chip.nwsl { color: var(--nwsl); } .chip.nwsl .dot { background: var(--nwsl); }
+  .chip.ligamxfemenil { color: var(--ligamxfemenil); } .chip.ligamxfemenil .dot { background: var(--ligamxfemenil); }
+  .chip.pwhl { color: var(--pwhl); } .chip.pwhl .dot { background: var(--pwhl); }
+
+  .matchup { display: flex; align-items: center; gap: 7px; min-width: 0; flex-wrap: wrap; }
+  .team { display: inline-flex; align-items: center; gap: 5px; font-weight: 600; }
+  .team img { width: 20px; height: 20px; object-fit: contain; }
+  .team.loser { color: var(--dim); font-weight: 500; }
+  .score { font-variant-numeric: tabular-nums; font-weight: 700; }
+  .team.loser .score { font-weight: 500; }
+  .at { color: var(--faint); font-size: 12px; }
+
+  .when { text-align: right; color: var(--dim); font-size: 13px; white-space: nowrap; }
+  .when .tv { color: var(--faint); font-size: 11px; display: block; }
+  .when.live { color: var(--live); font-weight: 600; }
+  .when.live::before {
+    content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+    background: var(--live); margin-right: 6px; animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse { 50% { opacity: .25; } }
+  .when .final-label { color: var(--faint); font-size: 11px; display: block; }
+
+  .empty {
+    background: var(--surface); border: 1px dashed var(--line); border-radius: 10px;
+    padding: 22px; text-align: center; color: var(--dim);
+  }
+  .notes { margin-top: 14px; font-size: 12px; color: var(--warn); }
+  .notes.err { color: #e0706d; }
+  footer { margin-top: 30px; text-align: center; color: var(--faint); font-size: 11px; }
+</style>
+</head>
+<body>
+<div class="wrap"><main id="app"></main></div>
+<script src="data.js"></script>
+<script>
+(() => {
+  'use strict';
+  const data = window.CALENDARIO;
+  const app = document.getElementById('app');
+  if (!data || !Array.isArray(data.days)) {
+    app.innerHTML = '<div class="empty">No hay datos todavía.<br>Corre <code>npm run fetch</code> en calendario-deportivo.</div>';
+    return;
+  }
+
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  const dayName = (date, style) => {
+    const d = new Date(date + 'T12:00:00Z');
+    const fmt = style === 'long'
+      ? { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }
+      : { weekday: 'long', day: 'numeric', month: 'short', timeZone: 'UTC' };
+    return new Intl.DateTimeFormat(data.locale, fmt).format(d);
+  };
+
+  const timeShort = (iso) => new Intl.DateTimeFormat(data.locale, {
+    timeZone: data.timezone, hour: 'numeric', minute: '2-digit',
+  }).format(new Date(iso));
+
+  const teamHtml = (team, score, opponentScore, status) => {
+    const finished = status === 'final' && typeof score === 'number' && typeof opponentScore === 'number';
+    const loser = finished && score < opponentScore;
+    const logo = team.logoUrl ? `<img src="${esc(team.logoUrl)}" alt="" loading="lazy" onerror="this.remove()">` : '';
+    const scoreHtml = status !== 'scheduled' && typeof score === 'number'
+      ? ` <span class="score">${score}</span>` : '';
+    return `<span class="team${loser ? ' loser' : ''}">${logo}${esc(team.abbrev)}${scoreHtml}</span>`;
+  };
+
+  const whenHtml = (g) => {
+    if (g.status === 'live') {
+      return `<div class="when live" data-role="when">${esc(g.statusDetail || 'En vivo')}</div>`;
+    }
+    if (g.status === 'final') {
+      const label = g.statusDetail && !/^final$/i.test(g.statusDetail) ? esc(g.statusDetail) : 'Final';
+      return `<div class="when" data-role="when"><span class="final-label">${label}</span></div>`;
+    }
+    const tv = g.tv ? `<span class="tv">${esc(g.tv)}</span>` : '';
+    return `<div class="when" data-role="when">${esc(g.startLocal || timeShort(g.startISO))}${tv}</div>`;
+  };
+
+  const gameHtml = (g) => `
+    <li class="game" data-id="${esc(g.id)}" data-league="${esc(g.league)}" data-status="${esc(g.status)}">
+      <span class="chip ${esc(g.league)}"><span class="dot"></span>${esc(g.leagueLabel)}</span>
+      <span class="matchup" data-role="matchup">
+        ${teamHtml(g.away, g.awayScore, g.homeScore, g.status)}
+        <span class="at">${g.status === 'scheduled' ? '@' : '–'}</span>
+        ${teamHtml(g.home, g.homeScore, g.awayScore, g.status)}
+      </span>
+      ${whenHtml(g)}
+    </li>`;
+
+  let todayIndex = data.days.findIndex((d) => d.date === data.today);
+  if (todayIndex === -1) todayIndex = data.days.length - 1;
+  const today = data.days[todayIndex];
+  const past = data.days.slice(0, todayIndex).filter((d) => d.games.length > 0);
+  const upcoming = data.days.slice(todayIndex + 1).filter((d) => d.games.length > 0);
+
+  const daySection = (day, cls) => `<section class="day ${cls}">
+      <div class="day-header"><span class="weekday">${esc(dayName(day.date, 'short'))}</span></div>
+      <ul class="games">${day.games.map(gameHtml).join('')}</ul>
+    </section>`;
+
+  let html = past.length ? '<p class="past-hint">Días anteriores</p>' : '';
+  for (const day of past) html += daySection(day, 'past');
+
+  const updated = new Date(data.generatedAt);
+  const updatedStr = new Intl.DateTimeFormat(data.locale, {
+    timeZone: data.timezone, hour: 'numeric', minute: '2-digit',
+  }).format(updated);
+  const staleHours = (Date.now() - updated.getTime()) / 3600e3;
+
+  html += `<section class="day today" id="hoy">
+    <div class="today-header">
+      <h1>${esc(dayName(today.date, 'long'))}</h1>
+      <div class="sub">Hoy · <span id="updated">actualizado ${esc(updatedStr)}</span></div>
+    </div>`;
+  html += today.games.length
+    ? `<ul class="games" id="today-games">${today.games.map(gameHtml).join('')}</ul>`
+    : '<div class="empty">Sin juegos hoy 😴</div>';
+
+  const failed = (data.leagues || []).filter((l) => !l.ok);
+  if (staleHours > 18) {
+    html += `<div class="notes">⚠︎ Datos de hace ${Math.round(staleHours)} h — revisa el agente launchd.</div>`;
+  }
+  if (failed.length) {
+    html += `<div class="notes err">Sin señal de: ${failed.map((l) => esc(l.league)).join(', ')}</div>`;
+  }
+  html += '</section>';
+
+  if (upcoming.length) {
+    html += '<p class="past-hint upcoming-hint">Próximos días</p>';
+    for (const day of upcoming) html += daySection(day, 'upcoming');
+  }
+  html += '<footer>calendario-deportivo</footer>';
+  app.innerHTML = html;
+  document.getElementById('hoy').scrollIntoView({ block: 'start' });
+
+  // ---- Live refresh (MLB + ESPN are CORS-open; others keep the snapshot) ----
+  const compact = today.date.replaceAll('-', '');
+  const espnPaths = { wnba: 'basketball/wnba', nba: 'basketball/nba' };
+
+  const applyUpdate = (id, status, detail, awayScore, homeScore) => {
+    const row = document.querySelector(`li.game[data-id="${id}"]`);
+    if (!row) return;
+    const prev = row.dataset.status;
+    if (prev === 'final' && status !== 'final') return;
+    const g = today.games.find((x) => x.id === id);
+    if (!g) return;
+    g.status = status;
+    g.statusDetail = detail;
+    g.awayScore = awayScore;
+    g.homeScore = homeScore;
+    row.dataset.status = status;
+    row.querySelector('[data-role="matchup"]').innerHTML = `
+      ${teamHtml(g.away, g.awayScore, g.homeScore, g.status)}
+      <span class="at">${g.status === 'scheduled' ? '@' : '–'}</span>
+      ${teamHtml(g.home, g.homeScore, g.awayScore, g.status)}`;
+    row.querySelector('[data-role="when"]').outerHTML = whenHtml(g);
+  };
+
+  const refreshMlb = async () => {
+    const url = `https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=${today.date}&hydrate=linescore`;
+    const res = await fetch(url);
+    if (!res.ok) return;
+    const json = await res.json();
+    for (const d of json.dates || []) {
+      for (const g of d.games || []) {
+        const state = g.status?.abstractGameState;
+        const status = state === 'Final' ? 'final' : state === 'Live' ? 'live' : 'scheduled';
+        if (status === 'scheduled') continue;
+        const ls = g.linescore || {};
+        const detail = status === 'live' && ls.currentInningOrdinal
+          ? `${ls.inningState || ''} ${ls.currentInningOrdinal}`.trim()
+          : g.status?.detailedState;
+        applyUpdate(`mlb-${g.gamePk}`, status, detail, g.teams?.away?.score, g.teams?.home?.score);
+      }
+    }
+  };
+
+  const refreshEspn = async (league) => {
+    const url = `https://site.api.espn.com/apis/site/v2/sports/${espnPaths[league]}/scoreboard?dates=${compact}`;
+    const res = await fetch(url);
+    if (!res.ok) return;
+    const json = await res.json();
+    for (const ev of json.events || []) {
+      const state = ev.status?.type?.state;
+      const status = state === 'post' ? 'final' : state === 'in' ? 'live' : 'scheduled';
+      if (status === 'scheduled') continue;
+      const comp = (ev.competitions || [])[0] || {};
+      const home = (comp.competitors || []).find((c) => c.homeAway === 'home');
+      const away = (comp.competitors || []).find((c) => c.homeAway === 'away');
+      applyUpdate(`${league}-${ev.id}`, status, ev.status?.type?.shortDetail, Number(away?.score), Number(home?.score));
+    }
+  };
+
+  const leaguesToday = new Set(today.games.map((g) => g.league));
+  const refresh = async () => {
+    if (document.visibilityState !== 'visible') return;
+    if (!today.games.some((g) => g.status !== 'final')) { clearInterval(timer); return; }
+    const jobs = [];
+    if (leaguesToday.has('mlb')) jobs.push(refreshMlb());
+    for (const lg of ['wnba', 'nba']) if (leaguesToday.has(lg)) jobs.push(refreshEspn(lg));
+    await Promise.allSettled(jobs);
+  };
+
+  const timer = setInterval(refresh, 60_000);
+  document.addEventListener('visibilitychange', refresh);
+  refresh();
+})();
+</script>
+</body>
+</html>

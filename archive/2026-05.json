@@ -1,0 +1,29 @@
+[
+ {
+  "date": "2026-05-17",
+  "games": [
+   {
+    "id": "ligamxfemenil-2472485",
+    "league": "ligamxfemenil",
+    "leagueLabel": "Liga MX Femenil",
+    "localDate": "2026-05-17",
+    "startISO": "2026-05-17T18:00:00Z",
+    "startLocal": "12:00 p.m.",
+    "status": "final",
+    "home": {
+     "name": "CF América Femenil",
+     "abbrev": "América",
+     "logoUrl": "https://r2.thesportsdb.com/images/media/team/badge/e1ysnx1626631431.png"
+    },
+    "away": {
+     "name": "Monterrey Femenil",
+     "abbrev": "Monterrey",
+     "logoUrl": "https://r2.thesportsdb.com/images/media/team/badge/jbaxdy1728382407.png"
+    },
+    "homeScore": 3,
+    "awayScore": 0,
+    "venue": "Estadio Ciudad de los Deportes"
+   }
+  ]
+ }
+]

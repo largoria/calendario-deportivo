@@ -1,0 +1,57 @@
+name: Actualizar datos y publicar en Pages
+
+on:
+  schedule:
+    # UTC. Monterrey es UTC-6 todo el año → 06:00, 12:00 y 17:00 locales.
+    - cron: '0 12 * * *'
+    - cron: '0 18 * * *'
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  TZ: America/Monterrey
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Obtener juegos
+        run: node src/fetch-games.ts
+
+      - name: Guardar historia (data.json + archivo mensual)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data.json web/data.js archive/ 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "datos $(date +%F_%H:%M)"
+          git pull --rebase origin main
+          git push
+
+      - name: Preparar artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
