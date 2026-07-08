@@ -1,0 +1,58 @@
+[
+ {
+  "date": "2026-06-30",
+  "games": [
+   {
+    "id": "wnba-401857321",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-06-30",
+    "startISO": "2026-06-30T23:00Z",
+    "startLocal": "5:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "9",
+     "name": "New York Liberty",
+     "abbrev": "NY",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
+    },
+    "away": {
+     "id": "17",
+     "name": "Las Vegas Aces",
+     "abbrev": "LV",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
+    },
+    "homeScore": 93,
+    "awayScore": 85,
+    "venue": "Barclays Center",
+    "tv": "Prime Video"
+   },
+   {
+    "id": "mlb-824984",
+    "league": "mlb",
+    "leagueLabel": "MLB",
+    "localDate": "2026-06-30",
+    "startISO": "2026-07-01T01:40:00Z",
+    "startLocal": "7:40 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "133",
+     "name": "Athletics",
+     "abbrev": "ATH",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/133.svg"
+    },
+    "away": {
+     "id": "119",
+     "name": "Los Angeles Dodgers",
+     "abbrev": "LAD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    "homeScore": 3,
+    "awayScore": 9,
+    "venue": "Sutter Health Park"
+   }
+  ]
+ }
+]
