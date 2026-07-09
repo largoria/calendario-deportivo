@@ -1,0 +1,32 @@
+[
+ {
+  "date": "2026-07-01",
+  "games": [
+   {
+    "id": "mlb-824985",
+    "league": "mlb",
+    "leagueLabel": "MLB",
+    "localDate": "2026-07-01",
+    "startISO": "2026-07-02T01:40:00Z",
+    "startLocal": "7:40 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "133",
+     "name": "Athletics",
+     "abbrev": "ATH",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/133.svg"
+    },
+    "away": {
+     "id": "119",
+     "name": "Los Angeles Dodgers",
+     "abbrev": "LAD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    "homeScore": 7,
+    "awayScore": 1,
+    "venue": "Sutter Health Park"
+   }
+  ]
+ }
+]

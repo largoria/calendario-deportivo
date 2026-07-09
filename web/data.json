@@ -1,39 +1,9 @@
 {
- "generatedAt": "2026-07-09T00:05:35.638Z",
+ "generatedAt": "2026-07-09T14:55:13.470Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
- "today": "2026-07-08",
+ "today": "2026-07-09",
  "days": [
-  {
-   "date": "2026-07-01",
-   "games": [
-    {
-     "id": "mlb-824985",
-     "league": "mlb",
-     "leagueLabel": "MLB",
-     "localDate": "2026-07-01",
-     "startISO": "2026-07-02T01:40:00Z",
-     "startLocal": "7:40 p.m.",
-     "status": "final",
-     "statusDetail": "Final",
-     "home": {
-      "id": "133",
-      "name": "Athletics",
-      "abbrev": "ATH",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/133.svg"
-     },
-     "away": {
-      "id": "119",
-      "name": "Los Angeles Dodgers",
-      "abbrev": "LAD",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
-     },
-     "homeScore": 7,
-     "awayScore": 1,
-     "venue": "Sutter Health Park"
-    }
-   ]
-  },
   {
    "date": "2026-07-02",
    "games": [
@@ -796,8 +766,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-08T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "live",
-     "statusDetail": "Halftime",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -810,8 +780,8 @@
       "abbrev": "GS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
      },
-     "homeScore": 31,
-     "awayScore": 41,
+     "homeScore": 75,
+     "awayScore": 83,
      "venue": "Coca-Cola Coliseum",
      "tv": "WNBA League Pass"
     },
@@ -822,8 +792,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-08T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "live",
-     "statusDetail": "7:31 - 2nd",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "18",
       "name": "Connecticut Sun",
@@ -836,8 +806,8 @@
       "abbrev": "MIN",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
      },
-     "homeScore": 29,
-     "awayScore": 24,
+     "homeScore": 80,
+     "awayScore": 86,
      "venue": "Mohegan Sun Arena",
      "tv": "USA Net"
     },
@@ -848,7 +818,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-09T02:00Z",
      "startLocal": "8:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "6",
       "name": "Los Angeles Sparks",
@@ -861,6 +832,8 @@
       "abbrev": "IND",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
      },
+     "homeScore": 106,
+     "awayScore": 92,
      "venue": "crypto.com Arena",
      "tv": "USA Net"
     },
@@ -871,7 +844,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-09T02:10:00Z",
      "startLocal": "8:10 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "119",
       "name": "Los Angeles Dodgers",
@@ -884,8 +858,8 @@
       "abbrev": "COL",
       "logoUrl": "https://www.mlbstatic.com/team-logos/115.svg"
      },
-     "homeScore": 0,
-     "awayScore": 0,
+     "homeScore": 4,
+     "awayScore": 3,
      "venue": "UNIQLO Field at Dodger Stadium"
     }
    ]
@@ -2520,7 +2494,7 @@
   {
    "league": "mlb",
    "ok": true,
-   "count": 17
+   "count": 16
   },
   {
    "league": "wnba",
