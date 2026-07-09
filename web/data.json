@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T19:15:11.605Z",
+ "generatedAt": "2026-07-09T00:05:35.638Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-08",
@@ -796,7 +796,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-08T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "Halftime",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -809,6 +810,8 @@
       "abbrev": "GS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
      },
+     "homeScore": 31,
+     "awayScore": 41,
      "venue": "Coca-Cola Coliseum",
      "tv": "WNBA League Pass"
     },
@@ -819,7 +822,8 @@
      "localDate": "2026-07-08",
      "startISO": "2026-07-08T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "7:31 - 2nd",
      "home": {
       "id": "18",
       "name": "Connecticut Sun",
@@ -832,6 +836,8 @@
       "abbrev": "MIN",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
      },
+     "homeScore": 29,
+     "awayScore": 24,
      "venue": "Mohegan Sun Arena",
      "tv": "USA Net"
     },
@@ -878,6 +884,8 @@
       "abbrev": "COL",
       "logoUrl": "https://www.mlbstatic.com/team-logos/115.svg"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "UNIQLO Field at Dodger Stadium"
     }
    ]
