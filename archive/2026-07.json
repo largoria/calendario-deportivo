@@ -28,5 +28,113 @@
     "venue": "Sutter Health Park"
    }
   ]
+ },
+ {
+  "date": "2026-07-02",
+  "games": [
+   {
+    "id": "wnba-401857034",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-02",
+    "startISO": "2026-07-02T23:30Z",
+    "startLocal": "5:30 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "16",
+     "name": "Washington Mystics",
+     "abbrev": "WSH",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
+    },
+    "away": {
+     "id": "20",
+     "name": "Atlanta Dream",
+     "abbrev": "ATL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
+    },
+    "homeScore": 81,
+    "awayScore": 76,
+    "venue": "CareFirst Arena",
+    "tv": "WNBA League Pass"
+   },
+   {
+    "id": "wnba-401857035",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-02",
+    "startISO": "2026-07-03T00:00Z",
+    "startLocal": "6:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "18",
+     "name": "Connecticut Sun",
+     "abbrev": "CON",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/con.png"
+    },
+    "away": {
+     "id": "3",
+     "name": "Dallas Wings",
+     "abbrev": "DAL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
+    },
+    "homeScore": 83,
+    "awayScore": 86,
+    "venue": "PeoplesBank Arena",
+    "tv": "Prime Video"
+   },
+   {
+    "id": "wnba-401857036",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-02",
+    "startISO": "2026-07-03T02:00Z",
+    "startLocal": "8:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "11",
+     "name": "Phoenix Mercury",
+     "abbrev": "PHX",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
+    },
+    "away": {
+     "id": "14",
+     "name": "Seattle Storm",
+     "abbrev": "SEA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
+    },
+    "homeScore": 90,
+    "awayScore": 67,
+    "venue": "Mortgage Matchup Center",
+    "tv": "WNBA League Pass"
+   },
+   {
+    "id": "mlb-823935",
+    "league": "mlb",
+    "leagueLabel": "MLB",
+    "localDate": "2026-07-02",
+    "startISO": "2026-07-03T02:10:00Z",
+    "startLocal": "8:10 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "119",
+     "name": "Los Angeles Dodgers",
+     "abbrev": "LAD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    "away": {
+     "id": "135",
+     "name": "San Diego Padres",
+     "abbrev": "SD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    "homeScore": 12,
+    "awayScore": 7,
+    "venue": "UNIQLO Field at Dodger Stadium"
+   }
+  ]
  }
 ]
