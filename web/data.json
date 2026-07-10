@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-10T19:19:38.665Z",
+ "generatedAt": "2026-07-10T23:54:42.326Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-10",
@@ -849,7 +849,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-10T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "End of 1st",
      "home": {
       "id": "18",
       "name": "Connecticut Sun",
@@ -862,6 +863,8 @@
       "abbrev": "GS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
      },
+     "homeScore": 19,
+     "awayScore": 17,
      "venue": "Mohegan Sun Arena",
      "tv": "ION"
     },
@@ -872,7 +875,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-10T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "End of 1st",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -885,6 +889,8 @@
       "abbrev": "DAL",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
      },
+     "homeScore": 33,
+     "awayScore": 25,
      "venue": "Bell Centre",
      "tv": "ION"
     },
@@ -1023,6 +1029,8 @@
       "abbrev": "AZ",
       "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "UNIQLO Field at Dodger Stadium"
     }
    ]
