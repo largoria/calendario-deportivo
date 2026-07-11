@@ -1,169 +1,9 @@
 {
- "generatedAt": "2026-07-10T23:54:42.326Z",
+ "generatedAt": "2026-07-11T13:15:13.323Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
- "today": "2026-07-10",
+ "today": "2026-07-11",
  "days": [
-  {
-   "date": "2026-07-03",
-   "games": [
-    {
-     "id": "wnba-401857037",
-     "league": "wnba",
-     "leagueLabel": "WNBA",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-03T23:30Z",
-     "startLocal": "5:30 p.m.",
-     "status": "final",
-     "statusDetail": "Final",
-     "home": {
-      "id": "9",
-      "name": "New York Liberty",
-      "abbrev": "NY",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
-     },
-     "away": {
-      "id": "8",
-      "name": "Minnesota Lynx",
-      "abbrev": "MIN",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
-     },
-     "homeScore": 99,
-     "awayScore": 86,
-     "venue": "Barclays Center",
-     "tv": "ION"
-    },
-    {
-     "id": "nwsl-401853928",
-     "league": "nwsl",
-     "leagueLabel": "NWSL",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-04T00:00Z",
-     "startLocal": "6:00 p.m.",
-     "status": "final",
-     "statusDetail": "FT",
-     "home": {
-      "id": "15365",
-      "name": "Washington Spirit",
-      "abbrev": "WAS",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png"
-     },
-     "away": {
-      "id": "17346",
-      "name": "Houston Dash",
-      "abbrev": "HOU",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/17346.png"
-     },
-     "homeScore": 2,
-     "awayScore": 1,
-     "venue": "Audi Field",
-     "tv": "Victory+"
-    },
-    {
-     "id": "nwsl-401854061",
-     "league": "nwsl",
-     "leagueLabel": "NWSL",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-04T01:30Z",
-     "startLocal": "7:30 p.m.",
-     "status": "final",
-     "statusDetail": "FT",
-     "home": {
-      "id": "131563",
-      "name": "Denver Summit FC",
-      "abbrev": "DEN",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131563.png"
-     },
-     "away": {
-      "id": "20907",
-      "name": "Kansas City Current",
-      "abbrev": "KC",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png"
-     },
-     "homeScore": 0,
-     "awayScore": 3,
-     "venue": "Dick's Sporting Goods Park",
-     "tv": "NWSL+"
-    },
-    {
-     "id": "nwsl-401853929",
-     "league": "nwsl",
-     "leagueLabel": "NWSL",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-04T02:00Z",
-     "startLocal": "8:00 p.m.",
-     "status": "final",
-     "statusDetail": "FT",
-     "home": {
-      "id": "21422",
-      "name": "Angel City FC",
-      "abbrev": "LA",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21422.png"
-     },
-     "away": {
-      "id": "18206",
-      "name": "Orlando Pride",
-      "abbrev": "ORL",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18206.png"
-     },
-     "homeScore": 2,
-     "awayScore": 0,
-     "venue": "BMO Stadium",
-     "tv": "Prime Video"
-    },
-    {
-     "id": "wnba-401857038",
-     "league": "wnba",
-     "leagueLabel": "WNBA",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-04T02:00Z",
-     "startLocal": "8:00 p.m.",
-     "status": "final",
-     "statusDetail": "Final/OT",
-     "home": {
-      "id": "17",
-      "name": "Las Vegas Aces",
-      "abbrev": "LV",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
-     },
-     "away": {
-      "id": "19",
-      "name": "Chicago Sky",
-      "abbrev": "CHI",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
-     },
-     "homeScore": 98,
-     "awayScore": 90,
-     "venue": "T-Mobile Arena",
-     "tv": "ION"
-    },
-    {
-     "id": "mlb-823933",
-     "league": "mlb",
-     "leagueLabel": "MLB",
-     "localDate": "2026-07-03",
-     "startISO": "2026-07-04T02:10:00Z",
-     "startLocal": "8:10 p.m.",
-     "status": "final",
-     "statusDetail": "Final",
-     "home": {
-      "id": "119",
-      "name": "Los Angeles Dodgers",
-      "abbrev": "LAD",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
-     },
-     "away": {
-      "id": "135",
-      "name": "San Diego Padres",
-      "abbrev": "SD",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/135.svg"
-     },
-     "homeScore": 4,
-     "awayScore": 3,
-     "venue": "UNIQLO Field at Dodger Stadium"
-    }
-   ]
-  },
   {
    "date": "2026-07-04",
    "games": [
@@ -849,8 +689,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-10T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "live",
-     "statusDetail": "End of 1st",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "18",
       "name": "Connecticut Sun",
@@ -863,8 +703,8 @@
       "abbrev": "GS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
      },
-     "homeScore": 19,
-     "awayScore": 17,
+     "homeScore": 64,
+     "awayScore": 79,
      "venue": "Mohegan Sun Arena",
      "tv": "ION"
     },
@@ -875,8 +715,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-10T23:30Z",
      "startLocal": "5:30 p.m.",
-     "status": "live",
-     "statusDetail": "End of 1st",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -889,33 +729,10 @@
       "abbrev": "DAL",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
      },
-     "homeScore": 33,
-     "awayScore": 25,
+     "homeScore": 95,
+     "awayScore": 108,
      "venue": "Bell Centre",
      "tv": "ION"
-    },
-    {
-     "id": "nwsl-401853934",
-     "league": "nwsl",
-     "leagueLabel": "NWSL",
-     "localDate": "2026-07-10",
-     "startISO": "2026-07-11T00:00Z",
-     "startLocal": "6:00 p.m.",
-     "status": "scheduled",
-     "home": {
-      "id": "18206",
-      "name": "Orlando Pride",
-      "abbrev": "ORL",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18206.png"
-     },
-     "away": {
-      "id": "20907",
-      "name": "Kansas City Current",
-      "abbrev": "KC",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png"
-     },
-     "venue": "Inter&Co Stadium",
-     "tv": "Prime Video"
     },
     {
      "id": "nwsl-401853935",
@@ -924,7 +741,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-11T00:00Z",
      "startLocal": "6:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "20905",
       "name": "Racing Louisville FC",
@@ -937,6 +755,8 @@
       "abbrev": "BAY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/22187.png"
      },
+     "homeScore": 0,
+     "awayScore": 2,
      "venue": "Lynn Family Stadium",
      "tv": "NWSL+"
     },
@@ -947,7 +767,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-11T00:00Z",
      "startLocal": "6:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "131562",
       "name": "Boston Legacy FC",
@@ -960,8 +781,36 @@
       "abbrev": "CHI",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15360.png"
      },
+     "homeScore": 2,
+     "awayScore": 0,
      "venue": "Centreville Bank Stadium",
      "tv": "NWSL+"
+    },
+    {
+     "id": "nwsl-401853934",
+     "league": "nwsl",
+     "leagueLabel": "NWSL",
+     "localDate": "2026-07-10",
+     "startISO": "2026-07-11T01:03Z",
+     "startLocal": "7:03 p.m.",
+     "status": "final",
+     "statusDetail": "FT",
+     "home": {
+      "id": "18206",
+      "name": "Orlando Pride",
+      "abbrev": "ORL",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18206.png"
+     },
+     "away": {
+      "id": "20907",
+      "name": "Kansas City Current",
+      "abbrev": "KC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png"
+     },
+     "homeScore": 3,
+     "awayScore": 0,
+     "venue": "Inter&Co Stadium",
+     "tv": "Prime Video"
     },
     {
      "id": "nwsl-401853936",
@@ -970,7 +819,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-11T02:00Z",
      "startLocal": "8:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "19141",
       "name": "Utah Royals",
@@ -983,6 +833,8 @@
       "abbrev": "GFC",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png"
      },
+     "homeScore": 1,
+     "awayScore": 3,
      "venue": "America First Field",
      "tv": "Victory+"
     },
@@ -993,7 +845,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-11T02:00Z",
      "startLocal": "8:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "6",
       "name": "Los Angeles Sparks",
@@ -1006,6 +859,8 @@
       "abbrev": "CHI",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
      },
+     "homeScore": 102,
+     "awayScore": 87,
      "venue": "crypto.com Arena",
      "tv": "ION"
     },
@@ -1016,7 +871,8 @@
      "localDate": "2026-07-10",
      "startISO": "2026-07-11T02:10:00Z",
      "startLocal": "8:10 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "119",
       "name": "Los Angeles Dodgers",
@@ -1029,8 +885,8 @@
       "abbrev": "AZ",
       "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
      },
-     "homeScore": 0,
-     "awayScore": 0,
+     "homeScore": 3,
+     "awayScore": 9,
      "venue": "UNIQLO Field at Dodger Stadium"
     }
    ]
@@ -2491,6 +2347,99 @@
      },
      "venue": "Providence Park",
      "tv": "Prime Video"
+    },
+    {
+     "id": "wnba-401857320",
+     "league": "wnba",
+     "leagueLabel": "WNBA",
+     "localDate": "2026-07-24",
+     "startISO": "2026-07-25T04:00Z",
+     "startLocal": "10:00 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "-1",
+      "name": "TBD",
+      "abbrev": "TBD"
+     },
+     "away": {
+      "id": "-2",
+      "name": "TBD",
+      "abbrev": "TBD"
+     },
+     "venue": "United Center"
+    }
+   ]
+  },
+  {
+   "date": "2026-07-25",
+   "games": [
+    {
+     "id": "nwsl-401854068",
+     "league": "nwsl",
+     "leagueLabel": "NWSL",
+     "localDate": "2026-07-25",
+     "startISO": "2026-07-25T21:00Z",
+     "startLocal": "3:00 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "131562",
+      "name": "Boston Legacy FC",
+      "abbrev": "BOS",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131562.png"
+     },
+     "away": {
+      "id": "20907",
+      "name": "Kansas City Current",
+      "abbrev": "KC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/20907.png"
+     },
+     "venue": "Centreville Bank Stadium",
+     "tv": "ION"
+    },
+    {
+     "id": "mlb-823600",
+     "league": "mlb",
+     "leagueLabel": "MLB",
+     "localDate": "2026-07-25",
+     "startISO": "2026-07-25T23:15:00Z",
+     "startLocal": "5:15 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "121",
+      "name": "New York Mets",
+      "abbrev": "NYM",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/121.svg"
+     },
+     "away": {
+      "id": "119",
+      "name": "Los Angeles Dodgers",
+      "abbrev": "LAD",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+     },
+     "venue": "Citi Field"
+    },
+    {
+     "id": "nwsl-401853950",
+     "league": "nwsl",
+     "leagueLabel": "NWSL",
+     "localDate": "2026-07-25",
+     "startISO": "2026-07-25T23:45Z",
+     "startLocal": "5:45 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "15366",
+      "name": "North Carolina Courage",
+      "abbrev": "NC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15366.png"
+     },
+     "away": {
+      "id": "19141",
+      "name": "Utah Royals",
+      "abbrev": "UTA",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/19141.png"
+     },
+     "venue": "WakeMed Soccer Park",
+     "tv": "ION"
     }
    ]
   }
@@ -2504,7 +2453,7 @@
   {
    "league": "wnba",
    "ok": true,
-   "count": 55
+   "count": 54
   },
   {
    "league": "nba",
@@ -2514,7 +2463,7 @@
   {
    "league": "nwsl",
    "ok": true,
-   "count": 29
+   "count": 28
   },
   {
    "league": "ligamxfemenil",
