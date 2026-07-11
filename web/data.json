@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-11T18:52:12.547Z",
+ "generatedAt": "2026-07-11T23:50:11.694Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-11",
@@ -901,8 +901,8 @@
      "localDate": "2026-07-11",
      "startISO": "2026-07-11T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "live",
-     "statusDetail": "5:33 - 4th",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "8",
       "name": "Minnesota Lynx",
@@ -915,8 +915,8 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
-     "homeScore": 78,
-     "awayScore": 72,
+     "homeScore": 90,
+     "awayScore": 85,
      "venue": "Target Center",
      "tv": "ABC"
     },
@@ -927,7 +927,8 @@
      "localDate": "2026-07-11",
      "startISO": "2026-07-11T20:00Z",
      "startLocal": "2:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "20",
       "name": "Atlanta Dream",
@@ -940,6 +941,8 @@
       "abbrev": "POR",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
      },
+     "homeScore": 92,
+     "awayScore": 102,
      "venue": "Gateway Center",
      "tv": "CBS"
     },
@@ -950,7 +953,8 @@
      "localDate": "2026-07-11",
      "startISO": "2026-07-11T22:00Z",
      "startLocal": "4:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "7:55 - 4th",
      "home": {
       "id": "17",
       "name": "Las Vegas Aces",
@@ -963,6 +967,8 @@
       "abbrev": "PHX",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
      },
+     "homeScore": 84,
+     "awayScore": 38,
      "venue": "Michelob ULTRA Arena",
      "tv": "Peacock"
     },
@@ -973,7 +979,8 @@
      "localDate": "2026-07-11",
      "startISO": "2026-07-11T22:30Z",
      "startLocal": "4:30 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "57'",
      "home": {
       "id": "15366",
       "name": "North Carolina Courage",
@@ -986,6 +993,8 @@
       "abbrev": "WAS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png"
      },
+     "homeScore": 0,
+     "awayScore": 2,
      "venue": "WakeMed Soccer Park",
      "tv": "ION"
     },
@@ -1032,6 +1041,8 @@
       "abbrev": "AZ",
       "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "UNIQLO Field at Dodger Stadium"
     }
    ]
