@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-11T13:15:13.323Z",
+ "generatedAt": "2026-07-11T18:52:12.547Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-11",
@@ -901,7 +901,8 @@
      "localDate": "2026-07-11",
      "startISO": "2026-07-11T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "5:33 - 4th",
      "home": {
       "id": "8",
       "name": "Minnesota Lynx",
@@ -914,6 +915,8 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
+     "homeScore": 78,
+     "awayScore": 72,
      "venue": "Target Center",
      "tv": "ABC"
     },
