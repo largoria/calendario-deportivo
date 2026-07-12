@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T18:56:41.331Z",
+ "generatedAt": "2026-07-12T23:47:56.246Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-12",
@@ -927,7 +927,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T19:00Z",
      "startLocal": "1:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -940,6 +941,8 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
+     "homeScore": 93,
+     "awayScore": 91,
      "venue": "Bell Centre",
      "tv": "NBA TV"
     },
@@ -950,7 +953,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T19:00Z",
      "startLocal": "1:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "16",
       "name": "Washington Mystics",
@@ -963,6 +967,8 @@
       "abbrev": "SEA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
      },
+     "homeScore": 84,
+     "awayScore": 79,
      "venue": "CareFirst Arena",
      "tv": "WNBA League Pass"
     },
@@ -973,7 +979,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T20:00Z",
      "startLocal": "2:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "15363",
       "name": "Seattle Reign FC",
@@ -986,6 +993,8 @@
       "abbrev": "POR",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15362.png"
      },
+     "homeScore": 2,
+     "awayScore": 0,
      "venue": "Lumen Field",
      "tv": "ESPN"
     },
@@ -996,7 +1005,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T20:10:00Z",
      "startLocal": "2:10 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "119",
       "name": "Los Angeles Dodgers",
@@ -1009,8 +1019,8 @@
       "abbrev": "AZ",
       "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
      },
-     "homeScore": 0,
-     "awayScore": 0,
+     "homeScore": 3,
+     "awayScore": 5,
      "venue": "UNIQLO Field at Dodger Stadium"
     },
     {
@@ -1020,7 +1030,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "32'",
      "home": {
       "id": "131563",
       "name": "Denver Summit FC",
@@ -1033,6 +1044,8 @@
       "abbrev": "HOU",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/17346.png"
      },
+     "homeScore": 1,
+     "awayScore": 1,
      "venue": "Dick's Sporting Goods Park",
      "tv": "Victory+"
     },
@@ -1043,7 +1056,8 @@
      "localDate": "2026-07-12",
      "startISO": "2026-07-12T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "1:28 - 2nd",
      "home": {
       "id": "3",
       "name": "Dallas Wings",
@@ -1056,6 +1070,8 @@
       "abbrev": "CHI",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
      },
+     "homeScore": 43,
+     "awayScore": 40,
      "venue": "American Airlines Center",
      "tv": "ESPN"
     },
