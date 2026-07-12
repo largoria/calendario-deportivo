@@ -296,5 +296,139 @@
     "venue": "UNIQLO Field at Dodger Stadium"
    }
   ]
+ },
+ {
+  "date": "2026-07-04",
+  "games": [
+   {
+    "id": "wnba-401857039",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-04",
+    "startISO": "2026-07-04T17:00Z",
+    "startLocal": "11:00 a.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "20",
+     "name": "Atlanta Dream",
+     "abbrev": "ATL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
+    },
+    "away": {
+     "id": "129689",
+     "name": "Golden State Valkyries",
+     "abbrev": "GS",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
+    },
+    "homeScore": 83,
+    "awayScore": 88,
+    "venue": "Gateway Center",
+    "tv": "CBS"
+   },
+   {
+    "id": "nwsl-401853930",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-04",
+    "startISO": "2026-07-04T23:30Z",
+    "startLocal": "5:30 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "15366",
+     "name": "North Carolina Courage",
+     "abbrev": "NC",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15366.png"
+    },
+    "away": {
+     "id": "15363",
+     "name": "Seattle Reign FC",
+     "abbrev": "SEA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15363.png"
+    },
+    "homeScore": 3,
+    "awayScore": 1,
+    "venue": "WakeMed Soccer Park",
+    "tv": "ION"
+   },
+   {
+    "id": "nwsl-401853931",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-04",
+    "startISO": "2026-07-05T00:45Z",
+    "startLocal": "6:45 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "21423",
+     "name": "San Diego Wave FC",
+     "abbrev": "SD",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21423.png"
+    },
+    "away": {
+     "id": "15364",
+     "name": "Gotham FC",
+     "abbrev": "GFC",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png"
+    },
+    "homeScore": 2,
+    "awayScore": 0,
+    "venue": "Snapdragon Stadium",
+    "tv": "ION"
+   },
+   {
+    "id": "wnba-401857040",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-04",
+    "startISO": "2026-07-05T01:00Z",
+    "startLocal": "7:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "14",
+     "name": "Seattle Storm",
+     "abbrev": "SEA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
+    },
+    "away": {
+     "id": "132052",
+     "name": "Portland Fire",
+     "abbrev": "POR",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
+    },
+    "homeScore": 72,
+    "awayScore": 77,
+    "venue": "Climate Pledge Arena",
+    "tv": "WNBA League Pass"
+   },
+   {
+    "id": "mlb-823932",
+    "league": "mlb",
+    "leagueLabel": "MLB",
+    "localDate": "2026-07-04",
+    "startISO": "2026-07-05T02:10:00Z",
+    "startLocal": "8:10 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "119",
+     "name": "Los Angeles Dodgers",
+     "abbrev": "LAD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    "away": {
+     "id": "135",
+     "name": "San Diego Padres",
+     "abbrev": "SD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/135.svg"
+    },
+    "homeScore": 3,
+    "awayScore": 0,
+    "venue": "UNIQLO Field at Dodger Stadium"
+   }
+  ]
  }
 ]
