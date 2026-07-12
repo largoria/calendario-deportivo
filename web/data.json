@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-12T13:16:02.821Z",
+ "generatedAt": "2026-07-12T18:56:41.331Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-12",
@@ -1009,6 +1009,8 @@
       "abbrev": "AZ",
       "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "UNIQLO Field at Dodger Stadium"
     },
     {
