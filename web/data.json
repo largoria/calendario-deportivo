@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-13T19:16:49.065Z",
+ "generatedAt": "2026-07-13T23:49:54.080Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-13",
@@ -953,7 +953,8 @@
      "localDate": "2026-07-13",
      "startISO": "2026-07-13T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "3:21 - 2nd",
      "home": {
       "id": "20",
       "name": "Atlanta Dream",
@@ -966,6 +967,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
      },
+     "homeScore": 45,
+     "awayScore": 39,
      "venue": "Gateway Center",
      "tv": "USA Net"
     },
