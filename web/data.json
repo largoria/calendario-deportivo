@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-14T19:09:05.284Z",
+ "generatedAt": "2026-07-14T23:48:24.761Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-14",
@@ -928,7 +928,8 @@
      "localDate": "2026-07-14",
      "startISO": "2026-07-14T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "2:12 - 2nd",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -941,6 +942,8 @@
       "abbrev": "WSH",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
      },
+     "homeScore": 30,
+     "awayScore": 21,
      "venue": "Coca-Cola Coliseum",
      "tv": "NBA TV"
     }
