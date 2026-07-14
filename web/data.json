@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-14T13:39:20.131Z",
+ "generatedAt": "2026-07-14T19:09:05.284Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-14",
@@ -902,7 +902,8 @@
      "localDate": "2026-07-14",
      "startISO": "2026-07-14T15:00Z",
      "startLocal": "9:00 a.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "18",
       "name": "Connecticut Sun",
@@ -915,6 +916,8 @@
       "abbrev": "POR",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
      },
+     "homeScore": 90,
+     "awayScore": 87,
      "venue": "Mohegan Sun Arena",
      "tv": "WNBA League Pass"
     },
