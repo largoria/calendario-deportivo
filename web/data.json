@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-15T13:40:03.548Z",
+ "generatedAt": "2026-07-15T19:01:30.382Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-15",
@@ -877,7 +877,8 @@
      "localDate": "2026-07-15",
      "startISO": "2026-07-15T16:00Z",
      "startLocal": "10:00 a.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "0.0 - 4th",
      "home": {
       "id": "19",
       "name": "Chicago Sky",
@@ -890,6 +891,8 @@
       "abbrev": "SEA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
      },
+     "homeScore": 95,
+     "awayScore": 90,
      "venue": "Wintrust Arena",
      "tv": "WNBA League Pass"
     },
@@ -900,7 +903,8 @@
      "localDate": "2026-07-15",
      "startISO": "2026-07-15T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "Halftime",
      "home": {
       "id": "8",
       "name": "Minnesota Lynx",
@@ -913,6 +917,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
      },
+     "homeScore": 37,
+     "awayScore": 39,
      "venue": "Target Center",
      "tv": "WNBA League Pass"
     },
