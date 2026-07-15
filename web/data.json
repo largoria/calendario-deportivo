@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-15T19:01:30.382Z",
+ "generatedAt": "2026-07-15T23:55:16.829Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-15",
@@ -877,8 +877,8 @@
      "localDate": "2026-07-15",
      "startISO": "2026-07-15T16:00Z",
      "startLocal": "10:00 a.m.",
-     "status": "live",
-     "statusDetail": "0.0 - 4th",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "19",
       "name": "Chicago Sky",
@@ -903,8 +903,8 @@
      "localDate": "2026-07-15",
      "startISO": "2026-07-15T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "live",
-     "statusDetail": "Halftime",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "8",
       "name": "Minnesota Lynx",
@@ -917,8 +917,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
      },
-     "homeScore": 37,
-     "awayScore": 39,
+     "homeScore": 96,
+     "awayScore": 87,
      "venue": "Target Center",
      "tv": "WNBA League Pass"
     },
@@ -929,7 +929,8 @@
      "localDate": "2026-07-15",
      "startISO": "2026-07-15T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "45'+2'",
      "home": {
       "id": "18206",
       "name": "Orlando Pride",
@@ -942,6 +943,8 @@
       "abbrev": "BOS",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131562.png"
      },
+     "homeScore": 0,
+     "awayScore": 1,
      "venue": "Inter&Co Stadium",
      "tv": "NWSL+"
     },
