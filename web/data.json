@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-16T13:46:38.809Z",
+ "generatedAt": "2026-07-16T19:00:59.635Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-16",
@@ -927,7 +927,8 @@
      "localDate": "2026-07-16",
      "startISO": "2026-07-17T01:00Z",
      "startLocal": "7:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Postponed",
      "home": {
       "id": "3",
       "name": "Dallas Wings",
@@ -940,8 +941,9 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
-     "venue": "College Park Center",
-     "tv": "Prime Video"
+     "homeScore": 0,
+     "awayScore": 0,
+     "venue": "College Park Center"
     }
    ]
   },
