@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-16T19:00:59.635Z",
+ "generatedAt": "2026-07-16T23:54:21.409Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-16",
@@ -904,7 +904,8 @@
      "localDate": "2026-07-16",
      "startISO": "2026-07-16T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "6:53 - 1st",
      "home": {
       "id": "16",
       "name": "Washington Mystics",
@@ -917,6 +918,8 @@
       "abbrev": "POR",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
      },
+     "homeScore": 6,
+     "awayScore": 11,
      "venue": "CareFirst Arena",
      "tv": "NBA TV"
     },
@@ -1489,6 +1492,28 @@
      },
      "venue": "Coca-Cola Coliseum",
      "tv": "Peacock"
+    },
+    {
+     "id": "wnba-401892393",
+     "league": "wnba",
+     "leagueLabel": "WNBA",
+     "localDate": "2026-07-20",
+     "startISO": "2026-07-21T00:00Z",
+     "startLocal": "6:00 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "3",
+      "name": "Dallas Wings",
+      "abbrev": "DAL",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
+     },
+     "away": {
+      "id": "9",
+      "name": "New York Liberty",
+      "abbrev": "NY",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
+     },
+     "venue": "College Park Center"
     },
     {
      "id": "wnba-401857084",
@@ -2406,7 +2431,7 @@
   {
    "league": "wnba",
    "ok": true,
-   "count": 52
+   "count": 53
   },
   {
    "league": "nba",
