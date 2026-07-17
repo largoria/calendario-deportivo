@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-17T18:58:39.661Z",
+ "generatedAt": "2026-07-17T23:47:21.321Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-17",
@@ -877,7 +877,8 @@
      "localDate": "2026-07-17",
      "startISO": "2026-07-17T23:05:00Z",
      "startLocal": "5:05 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "In Progress",
      "home": {
       "id": "147",
       "name": "New York Yankees",
@@ -890,6 +891,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "Yankee Stadium"
     },
     {
@@ -1430,7 +1433,8 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
-     "venue": "College Park Center"
+     "venue": "College Park Center",
+     "tv": "KFAA-TV"
     },
     {
      "id": "wnba-401857084",
@@ -2250,8 +2254,8 @@
      "league": "wnba",
      "leagueLabel": "WNBA",
      "localDate": "2026-07-30",
-     "startISO": "2026-07-30T23:00Z",
-     "startLocal": "5:00 p.m.",
+     "startISO": "2026-07-31T00:00Z",
+     "startLocal": "6:00 p.m.",
      "status": "scheduled",
      "home": {
       "id": "131935",
@@ -2266,7 +2270,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
      },
      "venue": "Scotiabank Arena",
-     "tv": "TSN"
+     "tv": "Prime Video"
     },
     {
      "id": "wnba-401857100",
@@ -2289,7 +2293,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/con.png"
      },
      "venue": "Wintrust Arena",
-     "tv": "Prime Video"
+     "tv": "CW26"
     },
     {
      "id": "wnba-401857101",
