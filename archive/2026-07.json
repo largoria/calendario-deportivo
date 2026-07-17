@@ -888,5 +888,88 @@
     "venue": "UNIQLO Field at Dodger Stadium"
    }
   ]
+ },
+ {
+  "date": "2026-07-09",
+  "games": [
+   {
+    "id": "wnba-401857051",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-09",
+    "startISO": "2026-07-10T00:00Z",
+    "startLocal": "6:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "20",
+     "name": "Atlanta Dream",
+     "abbrev": "ATL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
+    },
+    "away": {
+     "id": "14",
+     "name": "Seattle Storm",
+     "abbrev": "SEA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
+    },
+    "homeScore": 89,
+    "awayScore": 78,
+    "venue": "Gateway Center",
+    "tv": "Prime Video"
+   },
+   {
+    "id": "wnba-401857052",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-09",
+    "startISO": "2026-07-10T02:00Z",
+    "startLocal": "8:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "11",
+     "name": "Phoenix Mercury",
+     "abbrev": "PHX",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
+    },
+    "away": {
+     "id": "5",
+     "name": "Indiana Fever",
+     "abbrev": "IND",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+    },
+    "homeScore": 89,
+    "awayScore": 92,
+    "venue": "Mortgage Matchup Center",
+    "tv": "Prime Video"
+   },
+   {
+    "id": "wnba-401857053",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-09",
+    "startISO": "2026-07-10T02:00Z",
+    "startLocal": "8:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "132052",
+     "name": "Portland Fire",
+     "abbrev": "POR",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
+    },
+    "away": {
+     "id": "17",
+     "name": "Las Vegas Aces",
+     "abbrev": "LV",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
+    },
+    "homeScore": 80,
+    "awayScore": 88,
+    "venue": "Moda Center",
+    "tv": "WNBA League Pass"
+   }
+  ]
  }
 ]
