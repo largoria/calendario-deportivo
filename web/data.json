@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-18T18:53:53.534Z",
+ "generatedAt": "2026-07-18T23:48:23.072Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-18",
@@ -825,7 +825,8 @@
      "localDate": "2026-07-18",
      "startISO": "2026-07-18T18:15Z",
      "startLocal": "12:15 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "131563",
       "name": "Denver Summit FC",
@@ -838,6 +839,8 @@
       "abbrev": "POR",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15362.png"
      },
+     "homeScore": 2,
+     "awayScore": 1,
      "venue": "Centennial Stadium",
      "tv": "CBS"
     },
@@ -848,7 +851,8 @@
      "localDate": "2026-07-18",
      "startISO": "2026-07-18T18:30Z",
      "startLocal": "12:30 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "15364",
       "name": "Gotham FC",
@@ -861,8 +865,10 @@
       "abbrev": "SEA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15363.png"
      },
+     "homeScore": 3,
+     "awayScore": 2,
      "venue": "Icahn Stadium",
-     "tv": "ABC"
+     "tv": "ESPN2"
     },
     {
      "id": "nwsl-401853943",
@@ -871,7 +877,8 @@
      "localDate": "2026-07-18",
      "startISO": "2026-07-18T20:00Z",
      "startLocal": "2:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "FT",
      "home": {
       "id": "22187",
       "name": "Bay FC",
@@ -884,6 +891,8 @@
       "abbrev": "NC",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15366.png"
      },
+     "homeScore": 3,
+     "awayScore": 0,
      "venue": "PayPal Park",
      "tv": "CBS"
     },
@@ -894,7 +903,8 @@
      "localDate": "2026-07-18",
      "startISO": "2026-07-18T22:30Z",
      "startLocal": "4:30 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "41'",
      "home": {
       "id": "15360",
       "name": "Chicago Stars FC",
@@ -907,6 +917,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21422.png"
      },
+     "homeScore": 0,
+     "awayScore": 0,
      "venue": "Northwestern Medicine Field at Martin Stadium",
      "tv": "ION"
     },
@@ -980,28 +992,6 @@
      "tv": "WNBA League Pass"
     },
     {
-     "id": "mlb-823523",
-     "league": "mlb",
-     "leagueLabel": "MLB",
-     "localDate": "2026-07-18",
-     "startISO": "2026-07-19T00:08:00Z",
-     "startLocal": "6:08 p.m.",
-     "status": "scheduled",
-     "home": {
-      "id": "147",
-      "name": "New York Yankees",
-      "abbrev": "NYY",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/147.svg"
-     },
-     "away": {
-      "id": "119",
-      "name": "Los Angeles Dodgers",
-      "abbrev": "LAD",
-      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
-     },
-     "venue": "Yankee Stadium"
-    },
-    {
      "id": "wnba-401857079",
      "league": "wnba",
      "leagueLabel": "WNBA",
@@ -1052,6 +1042,28 @@
   {
    "date": "2026-07-19",
    "games": [
+    {
+     "id": "mlb-823523",
+     "league": "mlb",
+     "leagueLabel": "MLB",
+     "localDate": "2026-07-19",
+     "startISO": "2026-07-19T16:35:00Z",
+     "startLocal": "10:35 a.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "147",
+      "name": "New York Yankees",
+      "abbrev": "NYY",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/147.svg"
+     },
+     "away": {
+      "id": "119",
+      "name": "Los Angeles Dodgers",
+      "abbrev": "LAD",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+     },
+     "venue": "Yankee Stadium"
+    },
     {
      "id": "wnba-401857080",
      "league": "wnba",
@@ -2434,7 +2446,7 @@
   {
    "league": "mlb",
    "ok": true,
-   "count": 16
+   "count": 17
   },
   {
    "league": "wnba",
