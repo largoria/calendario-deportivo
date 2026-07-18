@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-18T13:10:29.115Z",
+ "generatedAt": "2026-07-18T18:53:53.534Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-18",
@@ -819,35 +819,12 @@
    "date": "2026-07-18",
    "games": [
     {
-     "id": "nwsl-401853942",
-     "league": "nwsl",
-     "leagueLabel": "NWSL",
-     "localDate": "2026-07-18",
-     "startISO": "2026-07-18T16:00Z",
-     "startLocal": "10:00 a.m.",
-     "status": "scheduled",
-     "home": {
-      "id": "15364",
-      "name": "Gotham FC",
-      "abbrev": "GFC",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png"
-     },
-     "away": {
-      "id": "15363",
-      "name": "Seattle Reign FC",
-      "abbrev": "SEA",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15363.png"
-     },
-     "venue": "Icahn Stadium",
-     "tv": "ABC"
-    },
-    {
      "id": "nwsl-401854066",
      "league": "nwsl",
      "leagueLabel": "NWSL",
      "localDate": "2026-07-18",
-     "startISO": "2026-07-18T18:00Z",
-     "startLocal": "12:00 p.m.",
+     "startISO": "2026-07-18T18:15Z",
+     "startLocal": "12:15 p.m.",
      "status": "scheduled",
      "home": {
       "id": "131563",
@@ -863,6 +840,29 @@
      },
      "venue": "Centennial Stadium",
      "tv": "CBS"
+    },
+    {
+     "id": "nwsl-401853942",
+     "league": "nwsl",
+     "leagueLabel": "NWSL",
+     "localDate": "2026-07-18",
+     "startISO": "2026-07-18T18:30Z",
+     "startLocal": "12:30 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "15364",
+      "name": "Gotham FC",
+      "abbrev": "GFC",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png"
+     },
+     "away": {
+      "id": "15363",
+      "name": "Seattle Reign FC",
+      "abbrev": "SEA",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15363.png"
+     },
+     "venue": "Icahn Stadium",
+     "tv": "ABC"
     },
     {
      "id": "nwsl-401853943",
