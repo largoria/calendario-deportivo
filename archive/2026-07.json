@@ -1183,5 +1183,165 @@
     "venue": "UNIQLO Field at Dodger Stadium"
    }
   ]
+ },
+ {
+  "date": "2026-07-11",
+  "games": [
+   {
+    "id": "wnba-401857057",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-11T17:00Z",
+    "startLocal": "11:00 a.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "8",
+     "name": "Minnesota Lynx",
+     "abbrev": "MIN",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
+    },
+    "away": {
+     "id": "9",
+     "name": "New York Liberty",
+     "abbrev": "NY",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
+    },
+    "homeScore": 90,
+    "awayScore": 85,
+    "venue": "Target Center",
+    "tv": "ABC"
+   },
+   {
+    "id": "wnba-401857059",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-11T20:00Z",
+    "startLocal": "2:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "20",
+     "name": "Atlanta Dream",
+     "abbrev": "ATL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
+    },
+    "away": {
+     "id": "132052",
+     "name": "Portland Fire",
+     "abbrev": "POR",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
+    },
+    "homeScore": 92,
+    "awayScore": 102,
+    "venue": "Gateway Center",
+    "tv": "CBS"
+   },
+   {
+    "id": "wnba-401857058",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-11T22:00Z",
+    "startLocal": "4:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "17",
+     "name": "Las Vegas Aces",
+     "abbrev": "LV",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
+    },
+    "away": {
+     "id": "11",
+     "name": "Phoenix Mercury",
+     "abbrev": "PHX",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
+    },
+    "homeScore": 106,
+    "awayScore": 58,
+    "venue": "Michelob ULTRA Arena",
+    "tv": "Peacock"
+   },
+   {
+    "id": "nwsl-401853937",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-11T22:30Z",
+    "startLocal": "4:30 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "15366",
+     "name": "North Carolina Courage",
+     "abbrev": "NC",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15366.png"
+    },
+    "away": {
+     "id": "15365",
+     "name": "Washington Spirit",
+     "abbrev": "WAS",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png"
+    },
+    "homeScore": 0,
+    "awayScore": 2,
+    "venue": "WakeMed Soccer Park",
+    "tv": "ION"
+   },
+   {
+    "id": "nwsl-401853938",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-12T00:45Z",
+    "startLocal": "6:45 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "21423",
+     "name": "San Diego Wave FC",
+     "abbrev": "SD",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21423.png"
+    },
+    "away": {
+     "id": "21422",
+     "name": "Angel City FC",
+     "abbrev": "LA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/21422.png"
+    },
+    "homeScore": 0,
+    "awayScore": 2,
+    "venue": "Snapdragon Stadium",
+    "tv": "ION"
+   },
+   {
+    "id": "mlb-823926",
+    "league": "mlb",
+    "leagueLabel": "MLB",
+    "localDate": "2026-07-11",
+    "startISO": "2026-07-12T01:10:00Z",
+    "startLocal": "7:10 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "119",
+     "name": "Los Angeles Dodgers",
+     "abbrev": "LAD",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+    },
+    "away": {
+     "id": "109",
+     "name": "Arizona Diamondbacks",
+     "abbrev": "AZ",
+     "logoUrl": "https://www.mlbstatic.com/team-logos/109.svg"
+    },
+    "homeScore": 2,
+    "awayScore": 9,
+    "venue": "UNIQLO Field at Dodger Stadium"
+   }
+  ]
  }
 ]
