@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-19T13:14:00.772Z",
+ "generatedAt": "2026-07-19T18:57:15.855Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-19",
@@ -904,7 +904,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T16:35:00Z",
      "startLocal": "10:35 a.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "In Progress",
      "home": {
       "id": "147",
       "name": "New York Yankees",
@@ -917,6 +918,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
+     "homeScore": 1,
+     "awayScore": 4,
      "venue": "Yankee Stadium"
     },
     {
@@ -926,7 +929,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "3:33 - 4th",
      "home": {
       "id": "3",
       "name": "Dallas Wings",
@@ -939,6 +943,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
      },
+     "homeScore": 80,
+     "awayScore": 76,
      "venue": "College Park Center",
      "tv": "ABC"
     },
