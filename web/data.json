@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-19T18:57:15.855Z",
+ "generatedAt": "2026-07-19T23:52:47.653Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-19",
@@ -904,8 +904,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T16:35:00Z",
      "startLocal": "10:35 a.m.",
-     "status": "live",
-     "statusDetail": "In Progress",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "147",
       "name": "New York Yankees",
@@ -918,8 +918,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
-     "homeScore": 1,
-     "awayScore": 4,
+     "homeScore": 2,
+     "awayScore": 8,
      "venue": "Yankee Stadium"
     },
     {
@@ -929,8 +929,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T17:00Z",
      "startLocal": "11:00 a.m.",
-     "status": "live",
-     "statusDetail": "3:33 - 4th",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "3",
       "name": "Dallas Wings",
@@ -943,8 +943,8 @@
       "abbrev": "LA",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
      },
-     "homeScore": 80,
-     "awayScore": 76,
+     "homeScore": 90,
+     "awayScore": 82,
      "venue": "College Park Center",
      "tv": "ABC"
     },
@@ -955,7 +955,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T20:00Z",
      "startLocal": "2:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "20",
       "name": "Atlanta Dream",
@@ -968,6 +969,8 @@
       "abbrev": "CHI",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
      },
+     "homeScore": 93,
+     "awayScore": 91,
      "venue": "Gateway Center",
      "tv": "CBS"
     },
@@ -1001,7 +1004,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "4:23 - 1st",
      "home": {
       "id": "11",
       "name": "Phoenix Mercury",
@@ -1014,6 +1018,8 @@
       "abbrev": "CON",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/con.png"
      },
+     "homeScore": 10,
+     "awayScore": 8,
      "venue": "Mortgage Matchup Center",
      "tv": "ESPN"
     },
@@ -1024,7 +1030,8 @@
      "localDate": "2026-07-19",
      "startISO": "2026-07-19T23:20:00Z",
      "startLocal": "5:20 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "In Progress",
      "home": {
       "id": "147",
       "name": "New York Yankees",
@@ -1037,6 +1044,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
+     "homeScore": 1,
+     "awayScore": 0,
      "venue": "Yankee Stadium"
     }
    ]
