@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-20T19:36:22.560Z",
+ "generatedAt": "2026-07-20T23:53:19.858Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-20",
@@ -877,7 +877,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-20T23:10:00Z",
      "startLocal": "5:10 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "In Progress",
      "home": {
       "id": "143",
       "name": "Philadelphia Phillies",
@@ -890,7 +891,7 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
-     "homeScore": 0,
+     "homeScore": 4,
      "awayScore": 0,
      "venue": "Citizens Bank Park"
     },
