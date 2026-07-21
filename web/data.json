@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-21T13:45:15.124Z",
+ "generatedAt": "2026-07-21T19:09:30.342Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-21",
@@ -1753,7 +1753,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/con.png"
      },
      "venue": "Wintrust Arena",
-     "tv": "CW26"
+     "tv": "WNBA League Pass"
     },
     {
      "id": "wnba-401857101",
@@ -2247,7 +2247,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png"
      },
      "venue": "Chase Center",
-     "tv": "KPIX+"
+     "tv": "WNBA League Pass"
     },
     {
      "id": "nwsl-401854070",
@@ -2298,7 +2298,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
      },
      "venue": "State Farm Arena",
-     "tv": "Atlanta News First"
+     "tv": "Peacock"
     },
     {
      "id": "wnba-401857112",
@@ -2321,7 +2321,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
      },
      "venue": "Barclays Center",
-     "tv": "Peacock"
+     "tv": "WNBA League Pass"
     },
     {
      "id": "mlb-824647",
@@ -2416,7 +2416,7 @@
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png"
      },
      "venue": "Chase Center",
-     "tv": "TSN"
+     "tv": "WNBA League Pass"
     }
    ]
   }
