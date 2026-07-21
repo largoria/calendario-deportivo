@@ -1529,5 +1529,62 @@
     "tv": "NBC"
    }
   ]
+ },
+ {
+  "date": "2026-07-13",
+  "games": [
+   {
+    "id": "wnba-401857064",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-13",
+    "startISO": "2026-07-13T23:00Z",
+    "startLocal": "5:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "20",
+     "name": "Atlanta Dream",
+     "abbrev": "ATL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
+    },
+    "away": {
+     "id": "6",
+     "name": "Los Angeles Sparks",
+     "abbrev": "LA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
+    },
+    "homeScore": 101,
+    "awayScore": 92,
+    "venue": "Gateway Center",
+    "tv": "USA Net"
+   },
+   {
+    "id": "wnba-401857065",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-13",
+    "startISO": "2026-07-14T01:00Z",
+    "startLocal": "7:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "8",
+     "name": "Minnesota Lynx",
+     "abbrev": "MIN",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
+    },
+    "away": {
+     "id": "11",
+     "name": "Phoenix Mercury",
+     "abbrev": "PHX",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
+    },
+    "homeScore": 104,
+    "awayScore": 100,
+    "venue": "Target Center",
+    "tv": "Peacock"
+   }
+  ]
  }
 ]

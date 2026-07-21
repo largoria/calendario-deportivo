@@ -1,66 +1,9 @@
 {
- "generatedAt": "2026-07-20T23:53:19.858Z",
+ "generatedAt": "2026-07-21T13:45:15.124Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
- "today": "2026-07-20",
+ "today": "2026-07-21",
  "days": [
-  {
-   "date": "2026-07-13",
-   "games": [
-    {
-     "id": "wnba-401857064",
-     "league": "wnba",
-     "leagueLabel": "WNBA",
-     "localDate": "2026-07-13",
-     "startISO": "2026-07-13T23:00Z",
-     "startLocal": "5:00 p.m.",
-     "status": "final",
-     "statusDetail": "Final",
-     "home": {
-      "id": "20",
-      "name": "Atlanta Dream",
-      "abbrev": "ATL",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
-     },
-     "away": {
-      "id": "6",
-      "name": "Los Angeles Sparks",
-      "abbrev": "LA",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
-     },
-     "homeScore": 101,
-     "awayScore": 92,
-     "venue": "Gateway Center",
-     "tv": "USA Net"
-    },
-    {
-     "id": "wnba-401857065",
-     "league": "wnba",
-     "leagueLabel": "WNBA",
-     "localDate": "2026-07-13",
-     "startISO": "2026-07-14T01:00Z",
-     "startLocal": "7:00 p.m.",
-     "status": "final",
-     "statusDetail": "Final",
-     "home": {
-      "id": "8",
-      "name": "Minnesota Lynx",
-      "abbrev": "MIN",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
-     },
-     "away": {
-      "id": "11",
-      "name": "Phoenix Mercury",
-      "abbrev": "PHX",
-      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
-     },
-     "homeScore": 104,
-     "awayScore": 100,
-     "venue": "Target Center",
-     "tv": "Peacock"
-    }
-   ]
-  },
   {
    "date": "2026-07-14",
    "games": [
@@ -877,8 +820,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-20T23:10:00Z",
      "startLocal": "5:10 p.m.",
-     "status": "live",
-     "statusDetail": "In Progress",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "143",
       "name": "Philadelphia Phillies",
@@ -891,8 +834,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
-     "homeScore": 4,
-     "awayScore": 0,
+     "homeScore": 10,
+     "awayScore": 7,
      "venue": "Citizens Bank Park"
     },
     {
@@ -902,7 +845,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-21T00:00Z",
      "startLocal": "6:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "131935",
       "name": "Toronto Tempo",
@@ -915,6 +859,8 @@
       "abbrev": "LV",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png"
      },
+     "homeScore": 83,
+     "awayScore": 109,
      "venue": "Coca-Cola Coliseum",
      "tv": "Peacock"
     },
@@ -925,7 +871,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-21T00:00Z",
      "startLocal": "6:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final/OT",
      "home": {
       "id": "3",
       "name": "Dallas Wings",
@@ -938,6 +885,8 @@
       "abbrev": "NY",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
      },
+     "homeScore": 98,
+     "awayScore": 99,
      "venue": "College Park Center",
      "tv": "KFAA-TV"
     },
@@ -948,7 +897,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-21T02:00Z",
      "startLocal": "8:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "129689",
       "name": "Golden State Valkyries",
@@ -961,6 +911,8 @@
       "abbrev": "WSH",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
      },
+     "homeScore": 82,
+     "awayScore": 90,
      "venue": "Chase Center",
      "tv": "WNBA League Pass"
     },
@@ -971,7 +923,8 @@
      "localDate": "2026-07-20",
      "startISO": "2026-07-21T02:00Z",
      "startLocal": "8:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "14",
       "name": "Seattle Storm",
@@ -984,6 +937,8 @@
       "abbrev": "MIN",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
      },
+     "homeScore": 102,
+     "awayScore": 105,
      "venue": "Climate Pledge Arena",
      "tv": "USA Net"
     }
@@ -2414,18 +2369,68 @@
      "tv": "USA Net"
     }
    ]
+  },
+  {
+   "date": "2026-08-04",
+   "games": [
+    {
+     "id": "mlb-824645",
+     "league": "mlb",
+     "leagueLabel": "MLB",
+     "localDate": "2026-08-04",
+     "startISO": "2026-08-05T00:05:00Z",
+     "startLocal": "6:05 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "112",
+      "name": "Chicago Cubs",
+      "abbrev": "CHC",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/112.svg"
+     },
+     "away": {
+      "id": "119",
+      "name": "Los Angeles Dodgers",
+      "abbrev": "LAD",
+      "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
+     },
+     "venue": "Wrigley Field"
+    },
+    {
+     "id": "wnba-401857114",
+     "league": "wnba",
+     "leagueLabel": "WNBA",
+     "localDate": "2026-08-04",
+     "startISO": "2026-08-05T02:00Z",
+     "startLocal": "8:00 p.m.",
+     "status": "scheduled",
+     "home": {
+      "id": "129689",
+      "name": "Golden State Valkyries",
+      "abbrev": "GS",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
+     },
+     "away": {
+      "id": "131935",
+      "name": "Toronto Tempo",
+      "abbrev": "TOR",
+      "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png"
+     },
+     "venue": "Chase Center",
+     "tv": "TSN"
+    }
+   ]
   }
  ],
  "leagues": [
   {
    "league": "mlb",
    "ok": true,
-   "count": 17
+   "count": 18
   },
   {
    "league": "wnba",
    "ok": true,
-   "count": 52
+   "count": 51
   },
   {
    "league": "nba",
