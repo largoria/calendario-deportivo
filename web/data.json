@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-22T13:48:41.374Z",
+ "generatedAt": "2026-07-22T19:03:22.786Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-22",
@@ -927,7 +927,8 @@
      "localDate": "2026-07-22",
      "startISO": "2026-07-22T19:00Z",
      "startLocal": "1:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "9:46 - 1st",
      "home": {
       "id": "6",
       "name": "Los Angeles Sparks",
@@ -940,6 +941,8 @@
       "abbrev": "PHX",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
      },
+     "homeScore": 0,
+     "awayScore": 3,
      "venue": "crypto.com Arena",
      "tv": "WNBA League Pass"
     },
