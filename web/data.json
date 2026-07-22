@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-22T19:03:22.786Z",
+ "generatedAt": "2026-07-22T23:58:11.543Z",
  "timezone": "America/Monterrey",
  "locale": "es-MX",
  "today": "2026-07-22",
@@ -927,8 +927,8 @@
      "localDate": "2026-07-22",
      "startISO": "2026-07-22T19:00Z",
      "startLocal": "1:00 p.m.",
-     "status": "live",
-     "statusDetail": "9:46 - 1st",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "6",
       "name": "Los Angeles Sparks",
@@ -941,8 +941,8 @@
       "abbrev": "PHX",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
      },
-     "homeScore": 0,
-     "awayScore": 3,
+     "homeScore": 82,
+     "awayScore": 86,
      "venue": "crypto.com Arena",
      "tv": "WNBA League Pass"
     },
@@ -953,7 +953,8 @@
      "localDate": "2026-07-22",
      "startISO": "2026-07-22T19:00Z",
      "startLocal": "1:00 p.m.",
-     "status": "scheduled",
+     "status": "final",
+     "statusDetail": "Final",
      "home": {
       "id": "14",
       "name": "Seattle Storm",
@@ -966,6 +967,8 @@
       "abbrev": "MIN",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
      },
+     "homeScore": 76,
+     "awayScore": 86,
      "venue": "Climate Pledge Arena",
      "tv": "WNBA League Pass"
     },
@@ -976,7 +979,8 @@
      "localDate": "2026-07-22",
      "startISO": "2026-07-22T22:40:00Z",
      "startLocal": "4:40 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "In Progress",
      "home": {
       "id": "143",
       "name": "Philadelphia Phillies",
@@ -989,6 +993,8 @@
       "abbrev": "LAD",
       "logoUrl": "https://www.mlbstatic.com/team-logos/119.svg"
      },
+     "homeScore": 2,
+     "awayScore": 3,
      "venue": "Citizens Bank Park"
     },
     {
@@ -998,7 +1004,8 @@
      "localDate": "2026-07-22",
      "startISO": "2026-07-22T23:00Z",
      "startLocal": "5:00 p.m.",
-     "status": "scheduled",
+     "status": "live",
+     "statusDetail": "7:23 - 1st",
      "home": {
       "id": "9",
       "name": "New York Liberty",
@@ -1011,6 +1018,8 @@
       "abbrev": "CHI",
       "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
      },
+     "homeScore": 5,
+     "awayScore": 12,
      "venue": "Barclays Center",
      "tv": "WNBA League Pass"
     },
