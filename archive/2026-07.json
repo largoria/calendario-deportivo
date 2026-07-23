@@ -1643,5 +1643,140 @@
     "tv": "NBA TV"
    }
   ]
+ },
+ {
+  "date": "2026-07-15",
+  "games": [
+   {
+    "id": "wnba-401857068",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-15",
+    "startISO": "2026-07-15T16:00Z",
+    "startLocal": "10:00 a.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "19",
+     "name": "Chicago Sky",
+     "abbrev": "CHI",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/chi.png"
+    },
+    "away": {
+     "id": "14",
+     "name": "Seattle Storm",
+     "abbrev": "SEA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
+    },
+    "homeScore": 95,
+    "awayScore": 90,
+    "venue": "Wintrust Arena",
+    "tv": "WNBA League Pass"
+   },
+   {
+    "id": "wnba-401857069",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-15",
+    "startISO": "2026-07-15T17:00Z",
+    "startLocal": "11:00 a.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "8",
+     "name": "Minnesota Lynx",
+     "abbrev": "MIN",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/min.png"
+    },
+    "away": {
+     "id": "6",
+     "name": "Los Angeles Sparks",
+     "abbrev": "LA",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/la.png"
+    },
+    "homeScore": 96,
+    "awayScore": 87,
+    "venue": "Target Center",
+    "tv": "WNBA League Pass"
+   },
+   {
+    "id": "nwsl-401854065",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-15",
+    "startISO": "2026-07-15T23:00Z",
+    "startLocal": "5:00 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "18206",
+     "name": "Orlando Pride",
+     "abbrev": "ORL",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/18206.png"
+    },
+    "away": {
+     "id": "131562",
+     "name": "Boston Legacy FC",
+     "abbrev": "BOS",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/131562.png"
+    },
+    "homeScore": 0,
+    "awayScore": 1,
+    "venue": "Inter&Co Stadium",
+    "tv": "NWSL+"
+   },
+   {
+    "id": "nwsl-401853940",
+    "league": "nwsl",
+    "leagueLabel": "NWSL",
+    "localDate": "2026-07-15",
+    "startISO": "2026-07-16T00:00Z",
+    "startLocal": "6:00 p.m.",
+    "status": "final",
+    "statusDetail": "FT",
+    "home": {
+     "id": "15364",
+     "name": "Gotham FC",
+     "abbrev": "GFC",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15364.png"
+    },
+    "away": {
+     "id": "15365",
+     "name": "Washington Spirit",
+     "abbrev": "WAS",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/soccer/500/15365.png"
+    },
+    "homeScore": 1,
+    "awayScore": 0,
+    "venue": "Citi Field",
+    "tv": "ESPN"
+   },
+   {
+    "id": "wnba-401857070",
+    "league": "wnba",
+    "leagueLabel": "WNBA",
+    "localDate": "2026-07-15",
+    "startISO": "2026-07-16T00:00Z",
+    "startLocal": "6:00 p.m.",
+    "status": "final",
+    "statusDetail": "Final",
+    "home": {
+     "id": "5",
+     "name": "Indiana Fever",
+     "abbrev": "IND",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png"
+    },
+    "away": {
+     "id": "129689",
+     "name": "Golden State Valkyries",
+     "abbrev": "GS",
+     "logoUrl": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/gs.png"
+    },
+    "homeScore": 75,
+    "awayScore": 88,
+    "venue": "Gainbridge Fieldhouse",
+    "tv": "USA Net"
+   }
+  ]
  }
 ]
